@@ -1,18 +1,25 @@
 {
   "author": {
-    "name": "Brian Holt",
-    "company": "Stripe"
+    "name": "Amir Vahed",
+    "company": "Daneshkar"
   },
-  "title": "Next.js Course Starter Kit",
-  "subtitle": "for Frontend Masters",
-  "frontendMastersLink": "https://frontendmasters.com/courses/complete-react-v8/",
+  "title": "Front-end toolkit for back-end engineers",
+  "subtitle": "For Daneshkar Academy",
+  "frontendMastersLink": "",
   "social": {
-    "linkedin": "btholt",
-    "github": "btholt",
-    "twitter": "holtbt"
+    "linkedin": "amirmvahed",
+    "github": "amirmvahed",
+    "twitter": ""
   },
-  "description": "A starter kit for making really amazing courses, optimized for Frontend Masters",
-  "keywords": ["your", "Google", "keywords", "here"],
-  "productionBaseUrl": "/next-course-starter",
+  "description": "About\nA comprehensive introduction to the essential front-end technologies: HTML, CSS, JavaScript, and jQuery for back-end engineers.",
+  "keywords": [
+    "front-end",
+    "back-end",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "JQuery"
+  ],
+  "productionBaseUrl": "/front-end-toolkit-for-back-end-engineers",
   "csvPath": "./out/lessons.csv"
 }

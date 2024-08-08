@@ -16,14 +16,14 @@ export default function Footer({ twitter, linkedin, github }) {
         ) : null}
         {github ? (
           <li className="social">
-            <a href={`https://github.com/${github}`}>
+            <a target={'_blank'} href={`https://github.com/${github}`}>
               <Gh />
             </a>
           </li>
         ) : null}
         {linkedin ? (
           <li className="social">
-            <a href={`https://linkedin.com/in/${linkedin}`}>
+            <a target={'_blank'} href={`https://linkedin.com/in/${linkedin}`}>
               <Li />
             </a>
           </li>
