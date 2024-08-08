@@ -520,7 +520,6 @@ pre code {
   padding: .5rem;
 }
 
-code,
 pre code,
 pre code.hljs {
   background-color: var(--emphasized-bg);
