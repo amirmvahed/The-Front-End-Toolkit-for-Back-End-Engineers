@@ -20,6 +20,6 @@
     "JavaScript",
     "JQuery"
   ],
-  "productionBaseUrl": "/front-end-toolkit-for-back-end-engineers",
+  "productionBaseUrl": "/the-front-end-toolkit-for-back-end-engineers",
   "csvPath": "./out/lessons.csv"
 }
