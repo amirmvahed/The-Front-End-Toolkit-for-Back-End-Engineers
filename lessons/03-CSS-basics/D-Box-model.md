@@ -1,4 +1,4 @@
-# CSS Syntax and Selectors
+# Box Model
 Every HTML element can be considered a box, and CSS lets you control this box’s dimensions and spacing. The box model consists of:
 
 * **Content**: The actual content of the element (text, images).
