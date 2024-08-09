@@ -10,6 +10,8 @@ Let’s break down some of the most commonly used HTML tags:
     * Example: `<a href="https://www.example.com">Visit Example</a>`
 * **`<img>`**: Image tag to display pictures.
     * Example: `<img src="image.jpg" alt="Description of image">`
+* **`<br>`**: creates a break in a line.
+  * Example: `<span>Hi</span><br><span>Goodbye</span>`
 * **`<ul>`, `<ol>`, `<li>`**: Unordered and ordered lists.
     * Example:
   ```html
