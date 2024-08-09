@@ -50,11 +50,11 @@ Targets elements with a specific class attribute.
 
 Targets a single element with a specific ID.
 
-  ```css
+```css
 #header {
     background-color: #333;
     color: white;
 }
-  ```
+```
 
 > 💡 Understanding how to use these selectors is key to effectively applying styles to your web page.

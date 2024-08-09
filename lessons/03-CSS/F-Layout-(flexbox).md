@@ -16,18 +16,17 @@ Flexbox works with two main components:
 Example:
 **HTML:**
 
-  ```html
+```html
 
 <div class="container">
   <div class="item">Item 1</div>
   <div class="item">Item 2</div>
   <div class="item">Item 3</div>
 </div>
-  ```
+```
 
 **CSS:**
-
-  ```css
+```css
 .container {
     display: flex; /* Turns the container into a flex container */
     background-color: #f4f4f4;
@@ -42,7 +41,7 @@ Example:
     padding: 20px;
     margin: 10px;
 }
-  ```
+```
 
 ## Key Flexbox Properties
 
@@ -55,11 +54,11 @@ children into flex items.
 
 Example:
 
-  ```css
+```css
 .container {
     display: flex;
 }
-  ```
+```
 
 ### **2. justify-content**
 This property controls the alignment of flex items along the main axis (horizontal by default). It’s useful for
@@ -75,12 +74,12 @@ distributing space between items.
 
 Example:
 
-  ```css
+```css
     .container {
     display: flex;
     justify-content: space-between;
 }
-  ```
+```
 
 ### **3. align-items**
 This property controls the alignment of flex items along the cross axis (vertical by default).
@@ -94,12 +93,12 @@ This property controls the alignment of flex items along the cross axis (vertica
 
 Example:
 
-  ```css
+```css
 .container {
     display: flex;
     align-items: center;
 }
-  ```
+```
 
 ### **4. flex-direction**
 This property defines the direction of the main axis along which the items are placed.
@@ -113,11 +112,11 @@ This property defines the direction of the main axis along which the items are p
 
 Example:
 
-  ```css
+```css
 .container {
     display: flex;
     flex-direction: column;
 }
-  ```
+```
 
 > 💡 use [this tool](https://angrytools.com/css-flex/) to fully understand the flexbox, and generate its code. 

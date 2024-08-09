@@ -11,7 +11,7 @@ Every HTML element can be considered a box, and CSS lets you control this box’
 Example:
 
 **HTML File (index.html):**
-  ```html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,14 +24,14 @@ Example:
 <div class="box">Content</div>
 </body>
 </html>
-  ```
+```
 
 **CSS File (styles.css):**
-  ```css
+```css
 .box {
     width: 300px; /* Width of the content area */
     padding: 20px; /* Space inside the box, around the content */
     border: 2px solid black; /* Border around the padding */
     margin: 10px; /* Space outside the border */
 }
-  ```
+```

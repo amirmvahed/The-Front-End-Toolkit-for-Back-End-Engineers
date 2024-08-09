@@ -17,55 +17,55 @@ Let's add media queries to adjust the layout for different screen sizes.
 
 **HTML:**
 
-  ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Title</title>
-    </head>
-    <style>
-      .container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-    
-      .box {
-        width: 25%;
-        margin: 10px;
-        background-color: #333;
-        color: white;
-        padding: 20px;
-        text-align: center;
-      }
-    
-      /* Styles for tablets (900px and down) */
-      @media (max-width: 900px) {
-        .box {
-          background-color: green;
-          width: 50%; /* Boxes take up more space on smaller screens */
-        }
-      }
-    
-      /* Styles for mobile phones (600px and down) */
-      @media (max-width: 600px) {
-        .box {
-          background-color: red;
-          width: 100%; /* Each box takes up the full width */
-        }
-      }
-    </style>
-    <body>
-    <div class="container">
-      <div class="box">Item 1</div>
-      <div class="box">Item 2</div>
-      <div class="box">Item 3</div>
-    </div>
-    </body>
-    </html>
-  ```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+</head>
+<style>
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box {
+    width: 25%;
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Styles for tablets (900px and down) */
+  @media (max-width: 900px) {
+    .box {
+      background-color: green;
+      width: 50%; /* Boxes take up more space on smaller screens */
+    }
+  }
+
+  /* Styles for mobile phones (600px and down) */
+  @media (max-width: 600px) {
+    .box {
+      background-color: red;
+      width: 100%; /* Each box takes up the full width */
+    }
+  }
+</style>
+<body>
+<div class="container">
+  <div class="box">Item 1</div>
+  <div class="box">Item 2</div>
+  <div class="box">Item 3</div>
+</div>
+</body>
+</html>
+```
 
 ## Viewport Meta Tag
 
@@ -74,6 +74,6 @@ section. This tag instructs the browser on how to adjust the page’s dimensions
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  ```
+```
 
 This tag tells the browser to match the screen's width (device width) and set the initial zoom level to 1.

@@ -11,7 +11,6 @@ engines, and assistive technologies like screen readers.
 ### Non-Semantic HTML:
 
 ```html
-
 <div id="header">Welcome to My Website</div>
 <div id="content">
   <p>This is my website where I share my projects and blog posts.</p>
@@ -22,7 +21,6 @@ engines, and assistive technologies like screen readers.
 ### Semantic HTML:
 
 ```html
-
 <header>Welcome to My Website</header>
 <main>
   <p>This is my website where I share my projects and blog posts.</p>
@@ -47,7 +45,6 @@ structure and content of the page.
 page.
 
 ```html
-
 <header>
   <h1>Welcome to My Portfolio</h1>
   <nav>
@@ -88,7 +85,6 @@ Defines a thematic grouping of content, typically with a heading. Sections are u
 Represents the footer of a document or section, typically containing metadata, author information, or links to related content.
 
 ```html
-
 <footer>
   <p>&copy; 2024 My Portfolio. All rights reserved.</p>
 </footer>

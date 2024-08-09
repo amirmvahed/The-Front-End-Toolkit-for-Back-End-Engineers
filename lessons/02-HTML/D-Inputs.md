@@ -59,7 +59,7 @@ Allows users to select one or more options.
 ### 7. Radio Buttons
 Allows users to select one option from a set.
 ```html
-  <p>Gender:</p>
+<p>Gender:</p>
 <label for="male">
   <input type="radio" id="male" name="gender" value="male">
   Male
@@ -94,7 +94,7 @@ Sends the form data to the server.
 Here’s how you can put all these inputs together in a complete form:
 
 ```html
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">

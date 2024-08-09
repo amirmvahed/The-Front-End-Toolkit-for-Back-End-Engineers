@@ -7,9 +7,9 @@ styles that you want to apply to a specific element without affecting the rest o
 
 Example:
 
-  ```html
+```html
 <p style="color: red; font-size: 18px;">This paragraph is styled using inline CSS.</p>
-  ```
+```
 
 ## Internal CSS
 
@@ -18,7 +18,7 @@ styling a single page without affecting other pages.
 
 Example:
 
- ```html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +45,7 @@ Example:
 <p>This paragraph is styled using internal CSS.</p>
 </body>
 </html>
-  ```
+```
 
 ## External CSS
 
@@ -56,7 +56,7 @@ Example:
 
 **HTML File (index.html):**
 
-  ```html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,7 +73,7 @@ Example:
   ```
 
 **CSS File (styles.css):**
-  ```css
+```css
 body {
     font-family: Arial, sans-serif;
 }
@@ -86,4 +86,4 @@ p {
     color: gray;
     font-size: 16px;
 }
-  ```
+```
