@@ -1,4 +1,4 @@
-## : Adding More Details
+## Attributes: Adding More Details
 
 HTML tags can have attributes that provide additional information. Some commonly used attributes include:
 
