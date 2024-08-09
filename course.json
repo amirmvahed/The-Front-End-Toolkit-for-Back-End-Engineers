@@ -3,7 +3,7 @@
     "name": "Amir Vahed",
     "company": "Daneshkar"
   },
-  "title": "Front-end toolkit for back-end engineers",
+  "title": "Front-end for back-end engineers",
   "subtitle": "For Daneshkar Academy",
   "frontendMastersLink": "",
   "social": {
@@ -20,6 +20,6 @@
     "JavaScript",
     "JQuery"
   ],
-  "productionBaseUrl": "/the-front-end-toolkit-for-back-end-engineers",
+  "productionBaseUrl": "/front-end-for-back-end-engineers",
   "csvPath": "./out/lessons.csv"
 }
