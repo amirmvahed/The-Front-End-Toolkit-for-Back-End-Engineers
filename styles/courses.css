@@ -529,4 +529,5 @@ pre code.hljs {
 pre code,
 pre code.hljs {
   display: block;
+  overflow: auto;
 }
