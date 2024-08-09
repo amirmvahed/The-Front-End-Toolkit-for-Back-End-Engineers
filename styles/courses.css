@@ -333,6 +333,10 @@ blockquote {
   margin: 10px 0;
 }
 
+blockquote > *:first-child {
+  margin-top: 0;
+}
+
 blockquote > *:last-child {
   margin-bottom: 0;
 }
