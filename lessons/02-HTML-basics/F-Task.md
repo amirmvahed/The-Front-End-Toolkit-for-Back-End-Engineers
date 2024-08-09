@@ -1,6 +1,6 @@
-# Project: Simple Web Page Structure
+# Task: Building a Portfolio Webpage
 
-Create the basic structure of a webpage for a personal profile.
+Create the basic structure of a webpage for a **personal portfolio**.
 
 ## Task
 Start with the basic HTML template. This will be the foundation of your webpage.
