@@ -1,0 +1,144 @@
+@font-face {
+    font-family: YoungSerif;
+    src: url(../front-end-for-back-end-engineers-tasks/recipe/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(../front-end-for-back-end-engineers-tasks/recipe/assets/fonts/outfit/static/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(../front-end-for-back-end-engineers-tasks/recipe/assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(../front-end-for-back-end-engineers-tasks/recipe/assets/fonts/outfit/static/Outfit-Bold.ttf);
+    font-weight: 700;
+}
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f9f3ef;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'YoungSerif', serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 48px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.prep-time {
+    background-color: #fbeff3;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.prep-time h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    color: #b45f06;
+    margin-bottom: 10px;
+}
+
+.ingredients,
+.instructions {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients li,
+.instructions li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.instructions {
+    counter-reset: step-counter;
+}
+
+.instructions li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.instructions li::before {
+    counter-increment: step-counter;
+    content: counter(step-counter) ".";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: #b45f06;
+}
+
+.nutrition {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.nutrition-table th {
+    background-color: #fbeff3;
+    color: #b45f06;
+}
+
+.nutrition-table td {
+    color: #333;
+}
