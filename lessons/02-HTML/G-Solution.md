@@ -4,6 +4,7 @@ In this project, you’ll create a simple portfolio webpage to showcase your wor
 steps.
 
 ## 1. Set Up Your HTML Document
+
 Start with the basic HTML template:
 
 ```html
@@ -21,9 +22,11 @@ Start with the basic HTML template:
 ```
 
 ## 2. Create the Header
+
 Add a header section to include your name and navigation links:
 
 ```html
+
 <header>
   <h1>Amir Vahed</h1>
   <nav>
@@ -37,9 +40,11 @@ Add a header section to include your name and navigation links:
 ```
 
 ## 3. Add the About Me Section
+
 Provide a brief introduction about yourself:
 
 ```html
+
 <section id="about">
   <h2>About Me</h2>
   <p>Hello! I'm Amir Vahed, a front-end developer with a passion for creating engaging websites and applications.</p>
@@ -48,9 +53,11 @@ Provide a brief introduction about yourself:
 ```
 
 ## 4. Create the Projects Section
+
 Showcase your projects with descriptions and links:
 
 ```html
+
 <section id="projects">
   <h2>Projects</h2>
   <div>
@@ -66,10 +73,12 @@ Showcase your projects with descriptions and links:
 </section>
 ```
 
-## 5.  Add a Contact Section
+## 5. Add a Contact Section
+
 Provide a way for visitors to get in touch with you.
 
 ```html
+
 <section id="contact">
   <h2>Contact Me</h2>
   <p>Feel free to reach out to me through the contact form below or via email.</p>
@@ -88,7 +97,8 @@ Provide a way for visitors to get in touch with you.
 </section>
 ```
 
-## 6.  Put all together
+## 6. Put all together
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -153,3 +163,7 @@ Provide a way for visitors to get in touch with you.
 </body>
 </html>
 ```
+
+> 💡 [Here](https://github.com/amirmvahed/front-end-for-back-end-engineers-tasks/tree/main/portfolio) you can see the
+> source
+> code
