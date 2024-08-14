@@ -1,4 +1,4 @@
-# Lesson 3: CSS Basics
+# Lesson 3: CSS intro
 
 Now that you’ve built a solid foundation with HTML—covering everything from basic tags and attributes to the power of
 semantic elements and inputs—it’s time to bring your web pages to life. Enter CSS, the magic wand that transforms your

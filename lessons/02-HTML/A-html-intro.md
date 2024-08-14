@@ -1,4 +1,4 @@
-# Lesson 2: HTML Basics
+# Lesson 2: HTML intro
 
 Now that you’ve got a high-level understanding of front-end and back-end development, it’s time to start building. We’ll
 begin with HTML, the backbone of any web page.
