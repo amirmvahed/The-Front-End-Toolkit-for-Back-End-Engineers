@@ -76,6 +76,12 @@ content.innerHTML = "<p>This is a new paragraph!</p>";  // Changes the HTML cont
 
 The `innerHTML` property allows you to add or modify the HTML inside an element.
 
+
+> 💡 You can get the value of these elements like this:
+>* document.getElementById('content').innerHTML
+>* or
+>* document.getElementById('content').textContent
+
 **c. Changing Styles:**
 You can directly manipulate an element’s CSS styles using the `style` property.
 
@@ -86,6 +92,21 @@ header.style.fontSize = "24px"; // Changes the font size to 24px
 ```
 
 The `style` property allows you to set or return the inline style of an element.
+
+**D. Getting the Value of an Input Field:**
+For input fields like text boxes, checkboxes, radio buttons, or select dropdowns, you can use the value property to
+retrieve the current value.
+
+```html
+<input type="text" id="username" value="Amir">
+
+<script>
+  let usernameInput = document.getElementById('username');
+  let usernameValue = usernameInput.value;
+  console.log(usernameValue);  // Output: Amir
+</script>
+
+```
 
 ## Creating and Removing Elements
 
