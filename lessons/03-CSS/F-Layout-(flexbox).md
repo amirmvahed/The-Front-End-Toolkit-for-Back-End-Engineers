@@ -26,6 +26,7 @@ Example:
 ```
 
 **CSS:**
+
 ```css
 .container {
     display: flex; /* Turns the container into a flex container */
@@ -61,6 +62,7 @@ Example:
 ```
 
 ### **2. justify-content**
+
 This property controls the alignment of flex items along the main axis (horizontal by default). It’s useful for
 distributing space between items.
 
@@ -82,6 +84,7 @@ Example:
 ```
 
 ### **3. align-items**
+
 This property controls the alignment of flex items along the cross axis (vertical by default).
 
 **Common Values:**
@@ -101,6 +104,7 @@ Example:
 ```
 
 ### **4. flex-direction**
+
 This property defines the direction of the main axis along which the items are placed.
 
 **Common Values:**
@@ -116,6 +120,25 @@ Example:
 .container {
     display: flex;
     flex-direction: column;
+}
+```
+
+### **5. flex-wrap**
+
+This property controls whether the flex items should wrap onto multiple lines.
+
+**Common Values:**
+
+* **nowrap**: All items will be on one line (default).
+* **wrap**: Items are placed horizontally in reverse order.
+* **wrap-reverse**: Items will wrap onto multiple lines in reverse order.
+
+Example:
+
+```css
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
 ```
 
