@@ -11,14 +11,13 @@
     "github": "amirmvahed",
     "twitter": ""
   },
-  "description": "About\nA comprehensive introduction to the essential front-end technologies: HTML, CSS, JavaScript, and jQuery for back-end engineers.",
+  "description": "About\nA comprehensive introduction to the essential front-end technologies: HTML, CSS, and JavaScript for back-end engineers.",
   "keywords": [
     "front-end",
     "back-end",
     "HTML",
     "CSS",
-    "JavaScript",
-    "JQuery"
+    "JavaScript"
   ],
   "productionBaseUrl": "/front-end-for-back-end-engineers",
   "csvPath": "./out/lessons.csv"

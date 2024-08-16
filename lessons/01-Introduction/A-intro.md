@@ -7,13 +7,12 @@ keywords:
   - HTML Basics for Developers
   - CSS Basics for Developers
   - JavaScript Introduction for Back-End Developers
-  - jQuery for Back-End Developers
   - Web Development Fundamentals
   - Why Learn Front-End Development
   - Benefits of Front-End Skills for Back-End Developers
   - Understanding Web Development Technologies
   - Front-End Technologies Overview
-  - HTML, CSS, JavaScript, jQuery for Beginners
+  - HTML, CSS, and JavaScript for Beginners
   - Full-Stack Development Basics
   - Introduction to Web Development Technologies
   - Front-End Skills for Back-End Engineers
@@ -29,7 +28,7 @@ keywords:
 Welcome to the start of your front-end journey! If you’re already rocking the back-end, this course will help you step confidently into the front-end world. We’re here to make sure you understand how both sides of web development fit together, so you can become a more well-rounded developer.
 
 ## Objective
-By the end of this lesson, you’ll have a clear understanding of what this workshop is all about, why front-end skills matter, and what to expect as we dive into the essentials of HTML, CSS, JavaScript, and jQuery.
+By the end of this lesson, you’ll have a clear understanding of what this workshop is all about, why front-end skills matter, and what to expect as we dive into the essentials of HTML, CSS, and JavaScript.
 
 ## What We’re Covering
 
@@ -56,9 +55,6 @@ Here’s a quick rundown of the core technologies we’ll cover:
 - **JavaScript**: JavaScript adds interactivity and functionality to your web pages. Whether it’s validating forms, creating dropdown menus, or dynamically updating content, JavaScript handles it.
     - **Why It’s Important**: JavaScript brings your static pages to life, making them more interactive and engaging.
 
-- **jQuery**: A JavaScript library that simplifies tasks like event handling, animations, and AJAX interactions.
-    - **Why It’s Important**: jQuery makes working with JavaScript easier and faster, especially for common tasks.
-
 ## Why This Matters: The Benefits
 So, why should you care about front-end development if you’re already a back-end pro? Here’s why:
 
@@ -72,7 +68,6 @@ Here’s a sneak peek at what’s coming up:
 - **HTML Basics**: We’ll start by building the structure of a webpage using HTML.
 - **CSS Basics**: Next, we’ll style that structure with CSS to create a polished, responsive design.
 - **JavaScript Basics**: Then, we’ll add functionality and interactivity with JavaScript.
-- **jQuery Basics**: Finally, we’ll use jQuery to simplify our JavaScript code and streamline common tasks.
 
 By the end of this workshop, you’ll have created a fully functional, interactive webpage from scratch. You’ll walk away with the skills to confidently tackle front-end challenges, making you a more versatile and effective developer.
 
