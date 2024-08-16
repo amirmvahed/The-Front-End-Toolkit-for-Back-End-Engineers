@@ -65,7 +65,7 @@ the for loop for arrays because it is simpler and avoids off-by-one errors.
 ```js
 let fruits = ["apple", "banana", "orange"];
 
-        // element
+// element
 for (let fruit of fruits) {
   console.log(fruit);
 }
@@ -74,3 +74,19 @@ for (let fruit of fruits) {
 * **Element:** Represents the current element in the iterable (e.g., array).
 * This loop iterates over the fruits array and prints each fruit name. It is more concise and easier to read than a
   traditional for loop.
+
+## The `forEach` method
+
+The forEach method executes a provided function once for each array element. This method takes a callback function as an
+argument, and this callback function is executed with each element in the array, one at a time.
+
+```js
+let fruits = ['apple', 'banana', 'orange'];
+
+fruits.forEach(function(fruit) {
+  console.log(fruit);
+});
+```
+
+* The forEach method iterates through the fruits array, and for each element, it calls the provided function, printing
+  the element to the console.
