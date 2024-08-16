@@ -89,5 +89,5 @@ form.addEventListener("submit", function(event) {
 ```
 
 When the form is submitted, the event listener prevents the default submission behavior and logs "Form submitted!" to
-the console. The event.preventDefault() method stops the form from actually submitting, which is useful for validating
+the console. The `event.preventDefault()` method stops the form from actually submitting, which is useful for validating
 the form data before submission.

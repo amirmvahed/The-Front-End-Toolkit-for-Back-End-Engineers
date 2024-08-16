@@ -16,3 +16,4 @@ CSS **Cascading Style Sheets** is like the makeup for your web page. It decides 
 and layout. While HTML gives structure to your content, CSS gives it style and personality.
 
 
+> 💡 You can see all the css's properties [here](https://www.w3schools.com/cssref/index.php).

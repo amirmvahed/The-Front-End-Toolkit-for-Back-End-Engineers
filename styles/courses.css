@@ -54,7 +54,9 @@ a {
   text-decoration: none;
 }
 
-
+code {
+  color: var(--emphasized-text);
+}
 
 .navbar {
   position: fixed;

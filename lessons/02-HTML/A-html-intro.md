@@ -35,3 +35,6 @@ Every HTML document starts with a specific structure. Here’s the basic templat
 * **`<html>`**: The root element that wraps all the content of the webpage.
 * **`<head>`**: Contains meta-information about the document, like the title and linked resources.
 * **`<body>`**: This is where the visible content of your webpage goes.
+
+
+> 💡 You can see all the html's tags [here](https://www.w3schools.com/TAGS/default.asp).
