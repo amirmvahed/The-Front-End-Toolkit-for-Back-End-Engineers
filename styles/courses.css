@@ -56,7 +56,6 @@ a {
 
 code {
   color: var(--emphasized-text);
-  overflow-x: auto;
 }
 
 .navbar {
