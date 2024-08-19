@@ -11,21 +11,21 @@ engines, and assistive technologies like screen readers.
 ### Non-Semantic HTML:
 
 ```html
-<div id="header">Welcome to My Website</div>
-<div id="content">
-  <p>This is my website where I share my projects and blog posts.</p>
-</div>
-<div id="footer">Contact me at email@example.com</div>
+    <div id="header">Welcome to My Website</div>
+    <div id="content">
+      <p>This is my website where I share my projects and blog posts.</p>
+    </div>
+    <div id="footer">Contact me at email@example.com</div>
 ```
 
 ### Semantic HTML:
 
 ```html
-<header>Welcome to My Website</header>
-<main>
-  <p>This is my website where I share my projects and blog posts.</p>
-</main>
-<footer>Contact me at email@example.com</footer>
+    <header>Welcome to My Website</header>
+    <main>
+      <p>This is my website where I share my projects and blog posts.</p>
+    </main>
+    <footer>Contact me at email@example.com</footer>
 ```
 
 In the semantic example, elements like **`<header>`**, **`<main>`**, and **`<footer>`** provide clear context about the
