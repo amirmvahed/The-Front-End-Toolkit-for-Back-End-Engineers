@@ -32,6 +32,7 @@ The designs were created to the following widths:
 > - Text color light: #666
 > - Heading color: #333
 > - Pink: #7B284FFF
+> - Pink light: #fbeff3
 > - Brown: #854632FF
 > - Orange: #b45f06
 > - Border color: #ddd
